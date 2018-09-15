@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Memoria - Funeral Home HTML Template">
+    <meta name="author" content="CreateIT">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('/apple-touch-icon.png') }}">
+
+    <title>Memoria - Funeral Home HTML Template</title>
+
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+
+    <!--[if lt IE 9]>
+    <script src="{{ asset('assets/bootstrap/js/html5shiv.min.js') }}"></script>
+    <script src="{{ asset('assets/bootstrap/js/respond.min.js') }}"></script>
+    <![endif]-->
+
+    <script src="{{ asset('assets/js/modernizr.custom.js') }}"></script>
+</head>
+<body class="cssAnimate ct-headroom--fixedMenu">
+<div class="ct-preloader"><div class="ct-preloader-content"></div></div>
+
+<div class="ct-menuMobile">
+    <ul class="ct-menuMobile-navbar list-unstyled">
+        <li class="dropdown">
+            <a href="index.html">Home <i class="fa fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-submenu"><a href="index.html">Home Version <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index-onepager.html">Home Onepager</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu"><a href="index.html">Header Effects <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index-fixedTopBar.html">Fixed Topbar</a></li>
+                        <li><a href="index-fixedMenu.html">Fixed Menu</a></li>
+                        <li><a href="index-fixedBoth.html">Fixed Both</a></li>
+                        <li><a href="index-scrollUpTopbar.html">Scroll Up Topbar </a></li>
+                        <li><a href="index-scrollUpMenu.html">Scroll Up Menu </a></li>
+                        <li><a href="index-scrollUpBoth.html">Scroll Up Both </a></li>
+                        <li><a href="index-hideMenu.html">Hide Menu </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="obituaries.html">Obituaries</a></li>
+        <li class="dropdown"><a href="flowers-and-gifts.html">Flowers &amp; Gifts <i class="fa fa-plus"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="flowers-and-gifts.html">Flowers &amp; Gifts</a></li>
+                <li><a href="single-product-page.html">Flowers Bouquet</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="about.html.twig">About Us <i class="fa fa-plus"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="about.html.twig">About Us</a></li>
+                <li><a href="our-services.html">Our Services</a></li>
+                <li class="dropdown-submenu"><a href="blog.html">Blog <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-single.html">Blog Single Page</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class="dropdown"><a href="features-grid.html">Features <i class="fa fa-plus"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="features-grid.html">Grid System</a></li>
+                <li><a href="features-typography.html">Typography</a></li>
+                <li><a href="features-buttons.html">Buttons</a></li>
+                <li><a href="features-forms.html">Forms</a></li>
+                <li class="dropdown-submenu"><a href="features-toggable.html">Toggables <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="features-toggable.html">Accordions</a></li>
+                        <li><a href="features-tabs.html">Tabs</a></li>
+                    </ul>
+                </li>
+                <li><a href="features-counters.html">Counters</a></li>
+                <li><a href="features-iconBoxes.html">Icon Boxes</a></li>
+                <li><a href="features-tables.html">Tables</a></li>
+                <li><a href="features-personBoxes.html">Person Boxes</a></li>
+                <li><a href="features-charts.html">Charts</a></li>
+                <li class="dropdown-submenu"><a href="features-p-icons.html">Progress  <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="features-p-icons.html">Progress Icons</a></li>
+                        <li><a href="features-p-bars.html">Progress Bars</a></li>
+                    </ul>
+                </li>
+                <li><a href="features-p-tables.html">Pricing Tables</a></li>
+                <li class="dropdown-submenu"><a href="features-lists.html">Lists  <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="features-lists.html">Lists Simple</a></li>
+                        <li><a href="features-lists-icons.html">Lists Icons</a></li>
+                    </ul>
+                </li>
+                <li><a href="features-media-section.html">Media Sections</a></li>
+                <li><a href="features-developers.html">For Developers</a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown"><a href="grief-support-resources.html">Grief &amp; Healing <i class="fa fa-plus"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="grief-support-resources.html">Support Resources</a></li>
+                <li><a href="understanding-grief.html">Grief &amp; Despair</a></li>
+                <li><a href="healing-process.html">The Healing Process</a></li>
+                <li><a href="counselling-services.html">Counselling Services</a></li>
+                <li><a href="grief-occured-death.html">Grief After Death</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div>
+
+<div id="ct-js-wrapper" class="ct-pageWrapper">
+<div class="ct-navbarMobile ct-navbarMobile--inverse">
+    <a class="navbar-brand" href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt="Website Logo"> </a>
+    <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>
+
+<div class="ct-topBar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-4 text-left">
+                <div class="ct-contactBox">
+                    <ul class="ct-contactBox-list list-unstyled list-inline">
+                        <li  data-toggle="tooltip" data-placement="bottom" title="Call us" class="active"><a href="#"><i class="fa fa-phone fa-2x"></i></a></li>
+                    </ul>
+                    <span class="ct-contactBox-content ct-u-colorMotive ct-u-displayBlock ct-u-fontType2">0 800 123 4567</span>
+                    <span class="ct-contactBox-info ct-fw-800 ct-fs-i ct-u-colorWhite ct-u-displayBlock ">Call Us 24/7</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-4 text-center">
+                <a href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt="Logo Image"/></a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 text-right">
+                <ul class="ct-socials list-unstyled list-inline">
+                    <li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li data-toggle="tooltip" data-placement="bottom" title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    <li data-toggle="tooltip" data-placement="bottom" title="Search" class="ct-divider active">
+                        <div id="ct-js-navSearch" class="ct-navbar-navSearch">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default ct-defaultMenu" data-startnavbar="145">
+    <div class="container">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav ct-navbar--zoomIn" data-time="">
+                <li class="dropdown"><a href="index.html"><span class="ct-dot"></span>Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown"><a href="index.html">Home Version</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index-onepager.html">Home Onepager</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="index-fixedTopBar.html">Header Effects</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index-fixedTopBar.html">Fixed Topbar</a></li>
+                                <li><a href="index-fixedMenu.html">Fixed Menu</a></li>
+                                <li><a href="index-fixedBoth.html">Fixed Both</a></li>
+                                <li><a href="index-scrollUpTopbar.html">Scroll Up Topbar </a></li>
+                                <li><a href="index-scrollUpMenu.html">Scroll Up Menu </a></li>
+                                <li><a href="index-scrollUpBoth.html">Scroll Up Both </a></li>
+                                <li><a href="index-hideMenu.html">Hide Menu </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="obituaries.html"><span class="ct-dot"></span>Obituaries</a></li>
+                <li class="dropdown"><a href="flowers-and-gifts.html"><span class="ct-dot"></span>Flowers &amp; Gifts<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="flowers-and-gifts.html">Flowers &amp; Gifts</a></li>
+                        <li><a href="single-product-page.html">Flowers Bouquet</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown active"><a href="about.html.twig"><span class="ct-dot"></span>About Us<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="about.html.twig">About Us</a></li>
+                        <li><a href="our-services.html">Our Services</a></li>
+                        <li class="dropdown"><a href="blog.html">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-single.html">Blog Single Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="features-grid.html"><span class="ct-dot"></span>Features<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="features-grid.html">Grid System</a></li>
+                        <li><a href="features-typography.html">Typography</a></li>
+                        <li><a href="features-buttons.html">Buttons</a></li>
+                        <li><a href="features-forms.html">Forms</a></li>
+                        <li class="dropdown"><a href="features-toggable.html">Toggables</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="features-toggable.html">Accordions</a></li>
+                                <li><a href="features-tabs.html">Tabs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="features-counters.html">Counters</a></li>
+
+                        <li><a href="features-iconBoxes.html">Icon Boxes</a></li>
+                        <li><a href="features-tables.html">Tables</a></li>
+                        <li><a href="features-personBoxes.html">Person Boxes</a></li>
+                        <li><a href="features-charts.html">Charts</a></li>
+                        <li class="dropdown"><a href="features-p-icons.html">Progress</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="features-p-icons.html">Progress Icons</a></li>
+                                <li><a href="features-p-bars.html">Progress Bars</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="features-p-tables.html">Pricing Tables</a></li>
+                        <li class="dropdown"><a href="features-lists.html">Lists</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="features-lists.html">Lists Simple</a></li>
+                                <li><a href="features-lists-icons.html">Lists Icons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="features-media-section.html">Media Sections</a></li>
+                        <li><a href="features-developers.html">For Developers</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="grief-support-resources.html"><span class="ct-dot"></span>Grief &amp; Healing<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="grief-support-resources.html">Support Resources</a></li>
+                        <li><a href="understanding-grief.html">Grief &amp; Despair</a></li>
+                        <li><a href="healing-process.html">The Healing Process</a></li>
+                        <li><a href="counselling-services.html">Counselling Services</a></li>
+                        <li><a href="grief-occured-death.html">Grief After Death</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html"><span class="ct-dot"></span>Contact Us</a></li>
+            </ul>
+            <div class="ct-navbar-search ct-navbar-search--type1">
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control ct-fs-i input-lg" placeholder="Please type keywords..." required="">
+                    </div>
+                    <button class="ct-navbar-search-button" type="submit">
+                        <i class="fa fa-search fa-fw"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header class="ct-mediaSection ct-mediaSectionHeader ct-u-colorWhite" data-color="#fff"  data-height="300px" data-background="assets/images/content/header-about-us.jpg" data-background-mobile="assets/images/content/header-about-us.jpg">
+    <div class="ct-mediaSection-inner">
+        <div class="container">
+            <div class="row text-center ct-u-paddingTop40">
+                <div class="col-md-12">
+                    <h3 class="ct-fw-700 text-uppercase">About Us</h3>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">About Us</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="ct-historySection ct-u-backgroundDark ct-u-paddingTop80 ct-u-paddingBottom90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h4 class="text-uppercase ct-fw-700 ct-u-colorWhite">history</h4>
+                <span class="ct-iconDivider ct-iconDivider--dark ct-iconDivider--withOpacity"><i class="fa fa-leaf fa-2x"></i></span>
+                <p class="ct-u-fontSize24 ct-u-colorWhite ct-u-lineHeight36 ct-u-paddingTop40">
+                    Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed,
+                    lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus.</p>
+            </div>
+        </div>
+
+        <div class="row ct-u-paddingTop70">
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60 ct-u-paddingRight30">
+              <p class="ct-text text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 text-center">
+                <div class="ct-dottDivider">
+                     <img src="{{ asset('assets/images/content/person-history1.png') }}" alt="Image" class="img-circle ct-roundedBorder ct-imageOverflow">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <div class="ct-content ct-dottText">
+                    <p class="ct-fw-700 ct-fs-i ct-u-colorWhite text-left">
+                        <span class="ct-date">01.01.1921</span>
+                        Memoria was founded by Dawson brothers
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ct-u-paddingTop70">
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <div class="ct-content ct-dottText ct-dottText--left">
+                    <p class="ct-fw-700 ct-fs-i ct-u-colorWhite ct-u-paddingLeft20 text-right">
+                        <span class="ct-date">05.08.1942</span>
+                        John Dawson joined USAF to fight in WWII
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 text-center">
+                <div class="ct-dottDivider">
+                    <img src="{{ asset('assets/images/content/picture-person2.jpg') }}" alt="Image" class="img-circle ct-roundedBorder ct-imageOverflow">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <p class="ct-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+            </div>
+        </div>
+
+        <div class="row ct-u-paddingTop70">
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <p class="ct-text text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 text-center">
+                <div class="ct-dottDivider">
+                    <img src="{{ asset('assets/images/content/picture-person1.jpg') }}" alt="Image" class="img-circle ct-roundedBorder ct-imageOverflow">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <div class="ct-content ct-dottText">
+                    <p class="ct-fw-700 ct-fs-i ct-u-colorWhite text-left">
+                        <span class="ct-date">07.21.1963</span>
+                        Funeral home Memoria moved to bigger facilities
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ct-u-paddingTop70">
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <div class="ct-content ct-dottText ct-dottText--left">
+                    <p class="ct-fw-700 ct-fs-i ct-u-colorWhite text-right">
+                        <span class="ct-date">04.15.1986</span>
+                        New offices open accordingly to expansion plan
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 text-center">
+                <div class="ct-dottDivider">
+                    <img src="{{ asset('assets/images/content/picture-person4.jpg') }}" alt="Image" class="img-circle ct-roundedBorder ct-imageOverflow">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <p class="ct-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+            </div>
+        </div>
+
+        <div class="row ct-u-paddingTop70">
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <p class="ct-text text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed.</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 text-center">
+                <div>
+                    <img src="{{ asset('assets/images/content/picture-person3.jpg') }}" alt="Image" class="img-circle ct-roundedBorder ct-imageOverflow">
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-4 ct-u-paddingTop60">
+                <div class="ct-content ct-dottText">
+                    <p class="ct-fw-700 ct-fs-i ct-u-colorWhite text-left">
+                        <span class="ct-date">06.30.2015</span>
+                        Our new amazing website went online
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ct-mediaSection" data-color="#fff" data-height="815px" data-background="assets/images/content/background-image.jpg" data-background-mobile="assets/images/content/background-image.jpg">
+    <div class="ct-mediaSection-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase ct-fw-700 ct-u-colorWhite">our philosophy</h4>
+                    <span class="ct-iconDivider ct-iconDivider--white"><i class="fa fa-leaf fa-2x"></i></span>
+                </div>
+            </div>
+
+            <div class="row text-center ct-u-paddingTop60">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="ct-iconBoxes ct-iconBoxes--secondVersion">
+                                <div class="ct-iconBoxes-icon">
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                                <div class="ct-iconBoxes-title">
+                                    <h5 class="ct-fw-700 text-uppercase ct-u-colorWhite"><a href="#">great care</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="ct-iconBoxes ct-iconBoxes--secondVersion">
+                                <div class="ct-iconBoxes-icon">
+                                    <i class="fa fa-university"></i>
+                                </div>
+                                <div class="ct-iconBoxes-title">
+                                    <h5 class="ct-fw-700 text-uppercase ct-u-colorWhite"><a href="#">respect</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="ct-iconBoxes ct-iconBoxes--secondVersion">
+                                <div class="ct-iconBoxes-icon">
+                                    <i class="fa fa-key"></i>
+                                </div>
+                                <div class="ct-iconBoxes-title">
+                                    <h5 class="ct-fw-700 text-uppercase ct-u-colorWhite"><a href="#">true faith</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ct-u-paddingTop70">
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="ct-u-colorWhite ct-u-fontSize30 ct-u-lineHeight45 ct-u-fontType2 ct-fs-i text-center">
+                        To treat everybody with care and attention. These difficult times nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="ct-u-backgroundBlack ct-u-paddingBoth80">
+    <div class="container">
+        <div class="row ct-u-paddingBottom90">
+            <div class="col-md-12 text-center">
+                <h4 class="text-uppercase ct-fw-700 ct-u-colorWhite">our team</h4>
+                <span class="ct-iconDivider ct-iconDivider--Dark ct-iconDivider--withOpacity"><i class="fa fa-leaf fa-2x"></i></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="ct-personBox ">
+                    <div class="ct-personBox-image">
+                        <img src="{{ asset('assets/images/content/personBox-image1.jpg') }}" class="img-circle ct-roundedBorderBig ct-imageSize grayscale grayscale-fade" alt="Image"/>
+                    </div>
+                    <div class="ct-personBox-name">rick dawson</div>
+                    <span class="ct-personBox-category">Owner</span>
+                    <span class="ct-personBox-email"><a href="mailto:rick@example.com">rick@example.com</a></span>
+                    <span class="ct-personBox-tel">+ 1 123 456 7890</span>
+                    <ul class="ct-socials ct-socials--largeIcon ct-socials--noBorder ct-socials--darkColor list-unstyled list-inline">
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="ct-personBox">
+                    <div class="ct-personBox-image">
+                        <img src="{{ asset('assets/images/content/personBox-image2.jpg') }}" class="img-circle ct-roundedBorderBig ct-imageSize grayscale grayscale-fade" alt="Image"/>
+                    </div>
+                    <div class="ct-personBox-name">jane dawson</div>
+                    <span class="ct-personBox-category">Managment</span>
+                    <span class="ct-personBox-email"><a href="mailto:jane@example.com">jane@example.com</a></span>
+                    <span class="ct-personBox-tel">+ 1 123 456 7890</span>
+                    <ul class="ct-socials ct-socials--largeIcon ct-socials--noBorder ct-socials--darkColor list-unstyled list-inline">
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="ct-personBox">
+                    <div class="ct-personBox-image">
+                        <img src="{{ asset('assets/images/content/personBox-image3.jpg') }}" class="img-circle ct-roundedBorderBig ct-imageSize grayscale grayscale-fade" alt="Image"/>
+                    </div>
+                    <div class="ct-personBox-name">jason dawson</div>
+                    <span class="ct-personBox-category">Customer Relations</span>
+                    <span class="ct-personBox-email"><a href="mailto:jason@example.com">jason@example.com</a></span>
+                    <span class="ct-personBox-tel">+ 1 123 456 7890</span>
+                    <ul class="ct-socials ct-socials--largeIcon ct-socials--noBorder ct-socials--darkColor list-unstyled list-inline">
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="ct-personBox">
+                    <div class="ct-personBox-image">
+                        <img src="{{ asset('assets/images/content/personBox-image4.jpg') }}" class="img-circle ct-roundedBorderBig ct-imageSize grayscale grayscale-fade" alt="Image"/>
+                    </div>
+                    <div class="ct-personBox-name">michael dawson</div>
+                    <span class="ct-personBox-category">Customer Support</span>
+                    <span class="ct-personBox-email"><a href="mailto:michael@example.com">michael@example.com</a></span>
+                    <span class="ct-personBox-tel">+ 1 123 456 7890</span>
+                    <ul class="ct-socials ct-socials--largeIcon ct-socials--noBorder ct-socials--darkColor list-unstyled list-inline">
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ct-u-backgroundDark ct-u-paddingTop80 ct-u-paddingBottom90">
+    <div class="container">
+        <div class="row ct-u-paddingBottom40">
+            <div class="col-md-12 text-center">
+                <h4 class="text-uppercase ct-fw-700 ct-u-colorWhite">our facilities</h4>
+                <span class="ct-iconDivider ct-iconDivider--Dark ct-iconDivider--withOpacity"><i class="fa fa-leaf fa-2x"></i></span>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 ct-u-paddingTop10">
+                <img src="{{ asset('assets/images/content/facilities-image1.jpg') }}" class="img-thumbnail" alt="Image">
+                <h5 class="ct-u-colorWhite text-uppercase ct-u-paddingBottom10 ct-u-paddingTop10">Melbourne Office</h5>
+                <div class="ct-u-colorWhite ct-u-paddingBottom10"><a href="mailto:melbourne@example.com">melbourne@example.com</a></div>
+                <div class="ct-u-colorWhite">+1 123 406 3290</div>
+            </div>
+            <div class="col-md-4 col-sm-6 ct-u-paddingTop10">
+                <img src="{{ asset('assets/images/content/facilities-image3.jpg') }}" class="img-thumbnail" alt="Image">
+                <h5 class="ct-u-colorWhite text-uppercase ct-u-paddingBottom10 ct-u-paddingTop10">Sydney Office</h5>
+                <div class="ct-u-colorWhite ct-u-paddingBottom10"><a href="mailto:sydney@example.com">sydney@example.com</a></div>
+                <div class="ct-u-colorWhite">+1 123 454 4460</div>
+            </div>
+            <div class="col-md-4 col-sm-12 ct-u-paddingTop10">
+                <img src="{{ asset('assets/images/content/facilities-image2.jpg') }}" class="img-thumbnail" alt="Image">
+                <h5 class="ct-u-colorWhite text-uppercase ct-u-paddingBottom10 ct-u-paddingTop10">Perth Office</h5>
+                <div class="ct-u-colorWhite ct-u-paddingBottom10"><a href="mailto:perth@example.com">perth@example.com</a></div>
+                <div class="ct-u-colorWhite">+1 123 456 7890</div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="ct-footer">
+    <div class="ct-footerUp">
+        <ul class="list-inline list-unstyled text-center">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="obituaries.html">Obituaries</a>
+            </li>
+            <li>
+                <a href="flowers-and-gifts.html">Flowers & Gifts</a>
+            </li>
+            <li>
+                <a href="our-services.html">Our Services</a>
+            </li>
+            <li>
+                <a href="about.html.twig">About Us</a>
+            </li>
+            <li>
+                <a href="grief-support-resources.html">Grief & Healing</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <div class="ct-footerMiddle">
+        <div class="container">
+            <div class="ct-u-displayTableVertical">
+                <div class="ct-u-displayTableCell ct-col1">
+                    <a href="index.html"><img src="{{ asset('assets/images/logo-dark.png') }}" alt="Logo dark"/></a>
+                </div>
+                <div class="ct-u-displayTableCell ct-col2">
+                    <div class="ct-contactBox">
+                        <ul class="ct-contactBox-list list-unstyled list-inline">
+                            <li  data-toggle="tooltip" data-placement="bottom" title="Call us"><a href="#"><i class="fa fa-phone fa-2x"></i></a></li>
+                        </ul>
+                        <span class="ct-contactBox-content ct-u-displayBlock ct-u-fontType2 ct-fs-i ct-u-fontSize24 ct-u-colorDark">0 800 123 4567</span>
+                        <span class="ct-contactBox-info ct-fw-800 ct-fs-i ct-u-displayBlock ct-u-colorDark">Call Us 24/7</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="ct-u-displayTableCell ct-col3">
+                    <div class="ct-contactBox">
+                        <ul class="ct-contactBox-list list-unstyled list-inline">
+                            <li  data-toggle="tooltip" data-placement="bottom" title="Send a message"><a href="#"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+                        </ul>
+                        <span class="ct-contactBox-content ct-u-displayBlock ct-u-fontType2 ct-fs-i ct-u-fontSize24 ct-u-colorDark">info@example.com</span>
+                        <span class="ct-contactBox-info ct-fw-800 ct-fs-i ct-u-displayBlock ct-u-colorDark">We will respond within 12h</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="ct-u-displayTableCell ct-col4">
+                    <ul class="ct-socials list-unstyled list-inline">
+                        <li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href="https://www.facebook.com/createITpl"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href="https://twitter.com/createitpl"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="bottom" title="Google Plus"><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="ct-scrollUpButton ct-js-btnScrollUp">
+               <span class="ct-sectioButton--square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+            </a>
+        </div>
+    </div>
+    <div class="ct-footerBottom text-center">
+        <span class="ct-copyright">
+            Copyrights © 2015 <span><a href="index.html">Memoria</a></span>. All rights reserved.
+        </span>
+        <span class="ct-company">
+            Made with <span class="ct-heart"><i class="fa fa-heart-o"></i></span> by <a href="http://www.remotedevelopers.eu/">CreateIT</a>
+        </span>
+    </div>
+
+</footer>
+
+</div>
+
+<!-- JavaScripts -->
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.placeholder.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ asset('assets/js/device.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.browser.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
+<script src="{{ asset('assets/js/snap.min.js') }}"></script>
+
+<script src="{{ asset('assets/js/smoothScroll.js') }}"></script>
+<script src="{{ asset('assets/js/media-section.js') }}"></script>
+
+<script src="{{ asset('assets/js/main.js') }}"></script>
+
+<!--Media Section-->
+<script src="{{ asset('assets/js/jquery.stellar.min.js') }}"></script>
+
+
+<!--Topbar and Navbar effects-->
+<script src="{{ asset('assets/js/headroom/headroom.js') }}"></script>
+<script src="{{ asset('assets/js/headroom/jQuery.headroom.js') }}"></script>
+<script src="{{ asset('assets/js/headroom/init.js') }}"></script>
+
+<script src="{{ asset('assets/js/jquery.gray.js') }}"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Twig Configuration
+twig:
+    debug: '%kernel.debug%'
+    strict_variables: false
+    paths:
+        '%kernel.project_dir%/src/Resources': ~
+        '%kernel.project_dir%/src/Resources/views': ~
+        '%kernel.project_dir%/src/Resources/assets': ~
