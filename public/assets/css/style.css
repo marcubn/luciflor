@@ -25,6 +25,10 @@ Last change:	26 November 2014
 11. Utilities
 
 -------------------------------------------------------------------*/
+.logo {
+  max-height: 100px;
+}
+
 .ct-m-imageCenter {
   max-height: 100%;
   max-width: 100%;
